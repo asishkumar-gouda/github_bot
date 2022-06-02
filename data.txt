@@ -150,3 +150,4 @@ This is where we are going to make additions and stage and at last commit2022-01
 2022-05-30 <- this was the commit for the day!!
 2022-05-31 <- this was the commit for the day!!
 2022-06-01 <- this was the commit for the day!!
+2022-06-02 <- this was the commit for the day!!
