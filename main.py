@@ -22,8 +22,8 @@ def makeCommit(commit_date: str, num_commits: int):
     os.system('git push')
 
 # Define the start and end date for the commits
-start_date = '2024-06-08'
-end_date = '2024-06-14'
+start_date = '2024-06-15'
+end_date = '2024-06-18'
 
 # Convert string dates to datetime objects
 start_date_obj = datetime.datetime.strptime(start_date, '%Y-%m-%d')
