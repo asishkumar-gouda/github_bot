@@ -2,7 +2,7 @@ import os
 import random
 import datetime
 
-def makeCommit(commit_date: str, num_commits: int):
+def make_commit(commit_date: str, num_commits: int):
     commit_date_obj = datetime.datetime.strptime(commit_date, '%Y-%m-%d')
     commit_date_str = commit_date_obj.strftime('%Y-%m-%d')
     
@@ -22,8 +22,8 @@ def makeCommit(commit_date: str, num_commits: int):
     os.system('git push')
 
 # Define the start and end date for the commits
-start_date = '2024-06-15'
-end_date = '2024-06-18'
+start_date = '2024-06-25'
+end_date = '2024-07-11'
 
 # Convert string dates to datetime objects
 start_date_obj = datetime.datetime.strptime(start_date, '%Y-%m-%d')
@@ -37,5 +37,5 @@ while current_date_obj <= end_date_obj:
         num_commits = 5
     else:
         num_commits = random.randint(8, 15)
-    makeCommit(commit_date, num_commits)
+    make_commit(commit_date, num_commits)
     current_date_obj += datetime.timedelta(days=1)
